@@ -2,6 +2,7 @@
 name = "german_freq_decryptor"
 version = "0.1.0"
 edition = "2021"
+authors = ["Omran Alshehabi"]
 
 [dependencies]
 clap ={ workspace = true, features = ["derive"] }

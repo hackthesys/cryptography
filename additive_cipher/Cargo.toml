@@ -2,6 +2,8 @@
 name = "additive_cipher"
 version = "0.1.0"
 edition = "2021"
+authors = ["Omran Alshehabi"]
+description = "A simple additive cipher implementation in Rust"
 
 [dependencies]
 clap ={ workspace = true, features = ["derive"] }
