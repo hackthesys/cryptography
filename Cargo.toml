@@ -1,0 +1,11 @@
+# This is the workspace configuration for a Rust project that contains multiple members.
+# The resolver = "3" line specifies the dependency resolution algorithm to use.
+[workspace]
+resolver = "3"
+members = ["additive_cipher", "german_freq_decryptor"]
+
+
+
+[workspace.dependencies]
+clap ={ version = "4.5.40", features = ["derive"] }
+
