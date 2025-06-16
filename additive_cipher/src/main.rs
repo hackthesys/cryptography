@@ -1,4 +1,3 @@
-use std::cmp::max_by_key;
 use clap::{Parser, ValueEnum};
 
 
@@ -12,10 +11,10 @@ struct Cli {
     key: u8,
 
     #[arg(short,long,help = "Path to the output file")]
-    output: Option<String>,
+    output: String,
 
     #[arg(short,long,help = "Mode of operation (encrypt/decrypt)")]
-    mode: Option<OperationMode>,
+    mode: OperationMode,
 }
 
 #[derive(Clone, Debug, ValueEnum)]
@@ -26,12 +25,19 @@ enum OperationMode {
 
 fn main() {
     let cli: Cli = Cli::parse();
+    match cli.mode {
+        OperationMode::Encrypt => {
+            let content: String = std::fs::read_to_string(&cli.file)
+                .expect("Failed to read the input file");
+            //println!("{}", content);
+            let cypher = encrypt(&content, cli.key);
+            std::fs::write(cli.output, cypher)
+                .expect("TODO: panic message");
+        }
+        OperationMode::Decrypt => {
 
-    let content: String = std::fs::read_to_string(&cli.file)
-        .expect("Failed to read the input file");
-    //println!("{}", content);
-    let cypher = encrypt(&content, cli.key);
-    println!("{}", cypher);
+        }
+    }
 }
 
 fn encrypt(content: &str, key: u8) -> String {
