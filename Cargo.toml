@@ -2,7 +2,7 @@
 # The resolver = "3" line specifies the dependency resolution algorithm to use.
 [workspace]
 resolver = "3"
-members = ["additive_cipher", "german_freq_decryptor", "vigenere"]
+members = ["additive_cipher", "german_freq_decryptor", "vigenere", "vigenere_decrypter"]
 
 
 
