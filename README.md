@@ -16,8 +16,8 @@ This is a Rust workspace containing multiple command-line tools for learning, im
 - [x] **Betriebsmodi** - Block cipher modes of operation (ECB, CBC, etc.).
 - [x] **AES** - Implementation or interface for AES encryption.
 - [x] **Schlüsselgenerierung** - Key generation algorithms and utilities.
-- [ ] **Lineare Analyse** - Tools for linear cryptanalysis.
-- [ ] **Güte von linearen Approximationen** - Evaluation of linear approximation quality.
+- [x] **Lineare Analyse** - Tools for linear cryptanalysis.
+- [x] **Güte von linearen Approximationen** - Evaluation of linear approximation quality.
 - [ ] **RSA** - RSA algorithm basics: encryption/decryption.
 - [ ] **RSA Key** - RSA key generation and management tools.
 
