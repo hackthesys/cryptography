@@ -18,8 +18,8 @@ This is a Rust workspace containing multiple command-line tools for learning, im
 - [x] **Schlüsselgenerierung** - Key generation algorithms and utilities.
 - [x] **Lineare Analyse** - Tools for linear cryptanalysis.
 - [x] **Güte von linearen Approximationen** - Evaluation of linear approximation quality.
-- [ ] **RSA** - RSA algorithm basics: encryption/decryption.
-- [ ] **RSA Key** - RSA key generation and management tools.
+- [x] **RSA** - RSA algorithm basics: encryption/decryption.
+- [x] **RSA Key** - RSA key generation and management tools.
 
 ## Getting Started
 
