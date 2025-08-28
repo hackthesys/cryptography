@@ -160,6 +160,26 @@ dependencies = [
 ]
 
 [[package]]
+name = "dh_exchange"
+version = "0.1.0"
+dependencies = [
+ "clap",
+ "num-bigint",
+ "num-traits",
+ "rand 0.8.5",
+]
+
+[[package]]
+name = "dh_params"
+version = "0.1.0"
+dependencies = [
+ "clap",
+ "num-bigint",
+ "num-traits",
+ "rand 0.8.5",
+]
+
+[[package]]
 name = "digest"
 version = "0.10.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
