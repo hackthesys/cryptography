@@ -14,8 +14,8 @@ This is a Rust workspace containing multiple command-line tools for learning, im
 - [x] **Additiv** - Additive cipher implementation and analysis.
 - [x] **Vigenère** - Vigenère cipher CLI tool with encryption/decryption.
 - [x] **Betriebsmodi** - Block cipher modes of operation (ECB, CBC, etc.).
-- [ ] **AES** - Implementation or interface for AES encryption.
-- [ ] **Schlüsselgenerierung** - Key generation algorithms and utilities.
+- [x] **AES** - Implementation or interface for AES encryption.
+- [x] **Schlüsselgenerierung** - Key generation algorithms and utilities.
 - [ ] **Lineare Analyse** - Tools for linear cryptanalysis.
 - [ ] **Güte von linearen Approximationen** - Evaluation of linear approximation quality.
 - [ ] **RSA** - RSA algorithm basics: encryption/decryption.
