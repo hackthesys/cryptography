@@ -21,7 +21,7 @@ This is a Rust workspace containing multiple command-line tools for learning, im
 - [x] **RSA** - RSA algorithm basics: encryption/decryption.
 - [x] **RSA Key** - RSA key generation and management tools.
 - [ ] **Diffie-Hellman** - Key exchange protocol implementation and utilities
-- [ ] **SHA-3** - SHA-3 hash function implementation and analysis.
+- [x] **SHA-3** - SHA-3 hash function implementation and analysis.
 - [ ] **DSA** - Digital Signature Algorithm implementation and verification tools.
 
 ## Getting Started
